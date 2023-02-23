@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Videogiochi coconut/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Videogiochi coconut.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Videogiochi coconut.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Videogiochi coconut/1.0.0": {
+      "type": "project",
+      "path": "../Videogiochi coconut/Videogiochi coconut.csproj",
+      "msbuildProject": "../Videogiochi coconut/Videogiochi coconut.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Videogiochi coconut >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fslongo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\mainino\\mainino.csproj",
+      "projectName": "mainino",
+      "projectPath": "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\mainino\\mainino.csproj",
+      "packagesPath": "C:\\Users\\fslongo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\mainino\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\fslongo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\Videogiochi coconut\\Videogiochi coconut.csproj": {
+              "projectPath": "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\Videogiochi coconut\\Videogiochi coconut.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
