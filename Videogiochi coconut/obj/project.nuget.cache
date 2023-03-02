@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aP+8kH0sO4sqfUZZTsJILawKovHGTcw/cRqY4C3VugiDXjz/A+hGl2HuUmpRC9IjjjpVjBQmG6qA2wcRAvT9Uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\federico\\git\\Rpg_libs\\Videogiochi coconut\\Videogiochi coconut.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\federico\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\federico\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\federico\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

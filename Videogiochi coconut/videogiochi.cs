@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Xml;
 
 namespace Videogiochi_coconut
 {
@@ -62,9 +64,60 @@ namespace Videogiochi_coconut
             vita = 200;
             Attacco = rnd.Next(1, 301);
         }
+
+        public static Personaggio[] partY;
+        private static int n_personaggi = 0;
+        private static int ultimo_personaggio_aggiunto = 0;
+        public static void Persone_che_giochano(int giochatori)
+        {
+            n_personaggi = giochatori;
+            partY = new Personaggio[n_personaggi];
+        }
+        public void AgGiUgnGi_PersSoNAggI(int personaggio)
+        {
+            if (n_personaggi == 0)
+            {
+                Console.WriteLine("Numero di personaggi non settato");
+                return;
+            }
+            switch (personaggio)
+            {
+                case 1:
+                    Console.WriteLine($"Come vuole chiamare il carratere n°{ultimo_personaggio_aggiunto + 1}");
+                    partY[ultimo_personaggio_aggiunto] = new Mago(Console.ReadLine());
+                    break;
+                case 2:
+                    Console.WriteLine($"Come vuole chiamare il carratere n°{ultimo_personaggio_aggiunto + 1}");
+                    partY[ultimo_personaggio_aggiunto] = new Guerriero(Console.ReadLine());
+                    break;
+                case 3:
+                    Console.WriteLine($"Come vuole chiamare il carratere n°{ultimo_personaggio_aggiunto + 1}");
+                    partY[ultimo_personaggio_aggiunto] = new Curatore(Console.ReadLine());
+                    break;
+                default:
+                    return;
+            }
+            ultimo_personaggio_aggiunto++;
+        }
         public string IL_METODO()
         {
             return $"{nome},{vita},{Attacco};";
+        }
+    }
+
+
+    public class Round{
+        public class Round1
+        {
+            
+        }
+        public class Round2
+        {
+
+        }
+        public class Round3
+        {
+
         }
     }
 }

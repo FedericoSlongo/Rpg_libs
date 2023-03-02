@@ -1,0 +1,10 @@
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\bin\Debug\netcoreapp3.0\Videogiochi coconut.deps.json
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\bin\Debug\netcoreapp3.0\Videogiochi coconut.dll
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\bin\Debug\netcoreapp3.0\Videogiochi coconut.pdb
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\obj\Debug\netcoreapp3.0\Videogiochi coconut.csproj.AssemblyReference.cache
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\obj\Debug\netcoreapp3.0\Videogiochi coconut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\obj\Debug\netcoreapp3.0\Videogiochi coconut.AssemblyInfoInputs.cache
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\obj\Debug\netcoreapp3.0\Videogiochi coconut.AssemblyInfo.cs
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\obj\Debug\netcoreapp3.0\Videogiochi coconut.csproj.CoreCompileInputs.cache
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\obj\Debug\netcoreapp3.0\Videogiochi coconut.dll
+C:\Users\federico\git\Rpg_libs\Videogiochi coconut\obj\Debug\netcoreapp3.0\Videogiochi coconut.pdb

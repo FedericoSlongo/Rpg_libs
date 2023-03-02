@@ -27,23 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fslongo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\federico\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\mainino\\mainino.csproj",
+      "projectUniqueName": "C:\\Users\\federico\\git\\Rpg_libs\\mainino\\mainino.csproj",
       "projectName": "mainino",
-      "projectPath": "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\mainino\\mainino.csproj",
-      "packagesPath": "C:\\Users\\fslongo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\mainino\\obj\\",
+      "projectPath": "C:\\Users\\federico\\git\\Rpg_libs\\mainino\\mainino.csproj",
+      "packagesPath": "C:\\Users\\federico\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\federico\\git\\Rpg_libs\\mainino\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fslongo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,9 +51,10 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\Videogiochi coconut\\Videogiochi coconut.csproj": {
-              "projectPath": "C:\\Users\\fslongo\\source\\repos\\Videogiochi coconut\\Videogiochi coconut\\Videogiochi coconut.csproj"
+            "C:\\Users\\federico\\git\\Rpg_libs\\Videogiochi coconut\\Videogiochi coconut.csproj": {
+              "projectPath": "C:\\Users\\federico\\git\\Rpg_libs\\Videogiochi coconut\\Videogiochi coconut.csproj"
             }
           }
         }
@@ -70,22 +67,42 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
