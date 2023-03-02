@@ -10,7 +10,9 @@ namespace mainino
         static void Main(string[] args)
         {
             Personaggio[] partY = new Personaggio[4];
-
+            Console.WriteLine("Inserire il nome del boss");
+            Boss Boos_epico = new Boss(Console.ReadLine());
+            Console.Clear();
 
             for (int i = 0; i < 4; i++)
             {
